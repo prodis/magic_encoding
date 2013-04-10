@@ -1,8 +1,8 @@
-# -*- encoding: utf-8 -*-
+# encoding: UTF-8
 
 Gem::Specification.new do |s|
   s.name = %q{magic_encoding}
-  s.version = "0.0.2"
+  s.version = "0.0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if s.respond_to? :required_rubygems_version=
   s.authors = ["Manuel Ryan"]
@@ -15,5 +15,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Easily add magic comments for encoding on multiple ruby source files}
-  
+
+  s.add_development_dependency "rake"
 end
